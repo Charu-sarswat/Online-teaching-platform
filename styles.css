@@ -88,6 +88,12 @@ nav{
     z-index:11;
 
 }
+/* cahnge the navbar colour */
+.window-scroll{
+    background-color:red;
+    box-shadow:0 1rem 2rem rgba(0,0,0,0.2);
+}
+
 .container{
     height:100%;
     display:flex;
@@ -181,3 +187,20 @@ margin:1rem 0 2.4;
     .category:nth-child(4) .category_icon {
         background-color:yellow;
     }
+     /* popular courses */
+     .courese{
+     margin-top: 10rem;
+     }
+     .courses_container{
+        display:grid;
+        grid-template-column:repeat(3, 1fr);
+        gap:2rem;
+     }
+     .course{
+        background-color:white;
+        text-align:center;
+        border:1px solid transparent;
+     }
+     .courses_info{
+        padding:2rem;
+     }
